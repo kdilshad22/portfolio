@@ -217,9 +217,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Harvard.png"),
-      projectName: "Harvard University",
-      projectDesc: "Redesign Havard university Website",
+      image: require("./assets/images/edoford.png"),
+      projectName: "Edoford website",
+      projectDesc: "Redesign",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -228,17 +228,17 @@ const bigProjects = {
       //   //  you can add extra buttons here.
       // ]
     },
-    {
-      image: require("./assets/images/auto1.jpg"),
-      projectName: "Hile Car Services",
-      projectDesc: "Redesign Hile car sevices website",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://nextu.se/"
-      //   }
-      // ]
-    }
+    // {
+    //   image: require("./assets/images/auto1.jpg"),
+    //   projectName: "Hile Car Services",
+    //   projectDesc: "Redesign Hile car sevices website",
+    //   // footerLink: [
+    //   //   {
+    //   //     name: "Visit Website",
+    //   //     url: "http://nextu.se/"
+    //   //   }
+    //   // ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
