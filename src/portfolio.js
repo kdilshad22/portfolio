@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Front-End Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1m5_UZOeaFE86PPyt0I5PYUuZasH5LPFJ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Paytakht Technical Institute",
-      logo: require("./assets/images/paitakht.jpg"),
+      logo: require("./assets/images/institute.jpg"),
       // subHeader: "Master of Science in Computer Science",
       duration: "September 2022 - April 2023",
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -228,17 +228,17 @@ const bigProjects = {
       //   //  you can add extra buttons here.
       // ]
     },
-    // {
-    //   image: require("./assets/images/auto1.jpg"),
-    //   projectName: "Hile Car Services",
-    //   projectDesc: "Redesign Hile car sevices website",
+    {
+      image: require("./assets/images/calculator.png"),
+      projectName: "modern calculator",
+      projectDesc: "design web calculator",
     //   // footerLink: [
     //   //   {
     //   //     name: "Visit Website",
     //   //     url: "http://nextu.se/"
     //   //   }
     //   // ]
-    // }
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
