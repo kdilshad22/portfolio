@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Paytakht Technical Institute",
-      logo: require("./assets/images/paitakht.jpg"),
+      logo: require("./assets/images/new-logo.png"),
       // subHeader: "Master of Science in Computer Science",
       duration: "September 2022 - April 2023",
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -256,7 +256,7 @@ const achievementSection = {
       title: " Ract js basic",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/Meta.jpg"),
+      image: require("./assets/images/new-meta.png"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
@@ -277,7 +277,7 @@ const achievementSection = {
       title: "HTML and CSS dipth",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/Meta.jpg"),
+      image: require("./assets/images/new-meta.png"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
@@ -290,7 +290,7 @@ const achievementSection = {
     {
       title: "Verion Control",
       subtitle: "Meta front-end developer courses.",
-      image: require("./assets/images/Meta.jpg"),
+      image: require("./assets/images/new-meta.png"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {name: "Certification", url: ""},
@@ -303,7 +303,7 @@ const achievementSection = {
     {
       title: "Programming With JavaScript",
       subtitle: "Meta front-end developer courses.",
-      image: require("./assets/images/Meta.jpg"),
+      image: require("./assets/images/new-meta.png"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {name: "Certification", url: ""}
@@ -317,7 +317,7 @@ const achievementSection = {
       title: "Introduction To Web Development",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/Meta.jpg"),
+      image: require("./assets/images/new-meta.png"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
