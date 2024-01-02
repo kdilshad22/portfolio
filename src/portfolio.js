@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Paytakht Technical Institute",
-      logo: require("./assets/images/new-logo.png"),
+      // logo: require("./assets/images/new-logo.png"),
       // subHeader: "Master of Science in Computer Science",
       duration: "September 2022 - April 2023",
       // desc: "Participated in the research of XXX and published 3 papers.",
