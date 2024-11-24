@@ -81,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },  
     {
+      skillName: "TailwindCss",
+      fontAwesomeClassname: "fab fa-tailwind"
+    },
+    {
       skillName: "bootsrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
@@ -91,6 +95,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-next"
     },
 
     {
@@ -252,6 +260,27 @@ const achievementSection = {
     "Achievements, Certifications.",
 
   achievementsCards: [
+    {
+      title: "Advanced React js",
+      subtitle:
+        "Meta front-end developer courses.",
+      image: require("./assets/images/new-meta.png"),
+      imageAlt: "Meta Logo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
     {
       title: " Ract js basic",
       subtitle:
