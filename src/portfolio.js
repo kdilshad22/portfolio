@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Front-End Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1s93ZCmoAsAIJLmm8FZtfhp_gp2uN88Hy/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10DQB-2BL7TG9aHx6WlWmaGrIQzrGZQri/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,16 +48,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "SKILLS",
   subTitle: "CRAZY  FRONT-END DEVELOPER WHO WANTS TO EXPLORE EVERY FRONT-END STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web."
     ),
     emoji("⚡ SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+   
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -72,47 +70,51 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
+    {
+      skillName: "tailwind css",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
     // {
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
     // },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },  
-    {
-      skillName: "TailwindCss",
-      fontAwesomeClassname: "fab fa-tailwind"
-    },
-    {
       skillName: "bootsrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },  
+
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-neos"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "nextjs",
-      fontAwesomeClassname: "fab fa-next"
-    },
-
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
     // {
     //   skillName: "firebase",
     //   fontAwesomeClassname: "fas fa-fire"
@@ -183,6 +185,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Core Operation Technician",
+      company: "Korek Telecom Company",
+      companylogo: require("./assets/images/Korek0.jpg"),
+      date: "March 2024 – Current",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       role: "IT",
       company: "Barzani Charity Foundation",
       companylogo: require("./assets/images/BCF.jpg"),
@@ -193,6 +205,7 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
+
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -221,32 +234,60 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/edoford.png"),
-      projectName: "Edoford website",
-      projectDesc: "Redesign",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      image: require("./assets/images/EduUni.png"),
+      projectName: "Eduford University",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://edu-university1.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
-      image: require("./assets/images/calculator.png"),
-      projectName: "modern calculator",
-      projectDesc: "design web calculator",
-    //   // footerLink: [
-    //   //   {
-    //   //     name: "Visit Website",
-    //   //     url: "http://nextu.se/"
-    //   //   }
-    //   // ]
-    }
+      image: require("./assets/images/LittleLemon.png"),
+      projectName: "Little Lemon Restaurant",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://little-lemon-restaurant0.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Company.png"),
+      projectName: "Company Portfolio",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://react-web-try.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Tech-Learning.png"),
+      projectName: "Tech-Learning",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tech-learning-b1.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/CalculatorModern.png"),
+      projectName: "Modern Calculator",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://modern-calculator0.netlify.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -255,16 +296,16 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications And Achievements 🏆 "),
   subtitle:
-    "Achievements, Certifications.",
+    "Certifications , Achievements.",
 
   achievementsCards: [
     {
       title: "Advanced React js",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
@@ -285,7 +326,7 @@ const achievementSection = {
       title: " Ract js basic",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
@@ -306,7 +347,7 @@ const achievementSection = {
       title: "HTML and CSS dipth",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
@@ -319,7 +360,20 @@ const achievementSection = {
     {
       title: "Verion Control",
       subtitle: "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
+      imageAlt: "Meta Logo",
+      footerLink: [
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "UX/UI Design",
+      subtitle: "Meta front-end developer courses.",
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {name: "Certification", url: ""},
@@ -332,7 +386,7 @@ const achievementSection = {
     {
       title: "Programming With JavaScript",
       subtitle: "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {name: "Certification", url: ""}
@@ -346,7 +400,7 @@ const achievementSection = {
       title: "Introduction To Web Development",
       subtitle:
         "Meta front-end developer courses.",
-      image: require("./assets/images/new-meta.png"),
+      image: require("./assets/images/meta.pg.jpg"),
       imageAlt: "Meta Logo",
       footerLink: [
         // {
