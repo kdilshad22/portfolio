@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.a1da0488.js",
+    "main.js": "/static/js/main.27566a7c.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1337ef45.chunk.js": "/static/js/64.1337ef45.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -12,17 +12,19 @@
     "static/media/Tech-Learning.png": "/static/media/Tech-Learning.228998f6a59f86b00834.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Company.png": "/static/media/Company.40052d3ffc8b19d91a4d.png",
+    "static/media/paytaxt.png": "/static/media/paytaxt.501665bd90e377c3f3ce.png",
     "static/media/meta.pg.jpg": "/static/media/meta.pg.ee95d8f31e9b37ef3843.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/BCF.jpg": "/static/media/BCF.b1621244aa148a1bdd2f.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/koreklogo.png": "/static/media/koreklogo.dea7de58b561d7dd1e07.png",
     "static/media/CalculatorModern.png": "/static/media/CalculatorModern.b4a3d023db006b3d5ae9.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.a1da0488.js.map": "/static/js/main.a1da0488.js.map",
+    "main.27566a7c.js.map": "/static/js/main.27566a7c.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.1337ef45.chunk.js.map": "/static/js/64.1337ef45.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.a1da0488.js"
+    "static/js/main.27566a7c.js"
   ]
 }
