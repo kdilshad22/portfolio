@@ -138,7 +138,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Paytakht Technical Institute",
-      logo: require("./assets/images/dawnload.png"),
+      logo: require("./assets/images/paytaxt.png"),
       // subHeader: "Master of Science in Computer Science",
       duration: "September 2022 - April 2023",
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -187,7 +187,7 @@ const workExperiences = {
     {
       role: "Core Operation Technician",
       company: "Korek Telecom Company",
-      companylogo: require("./assets/images/Korek-Telecom.png"),
+      companylogo: require("./assets/images/koreklogo.png"),
       date: "March 2024 – Current",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
